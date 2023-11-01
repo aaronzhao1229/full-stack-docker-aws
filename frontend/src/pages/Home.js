@@ -39,7 +39,7 @@ const Home = () => {
   return (
     <div style={{ marginTop: '150px' }}>
       <Link to="/Addcontact">
-        <button className="btn btn-contact">Add Contact</button>
+        <button className="btn btn-contact">Add a new Contact</button>
       </Link>
       <TableContainer component={Paper} className="styled-table">
         <Table aria-label="caption table">
